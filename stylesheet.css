@@ -5,7 +5,6 @@ body {
 	background-color : #EDC7B7;
 	color : #59253A;
 	font-size : 18px;
-	/*font-family : "Calibri Light";*/
 }
 
 /*This is the main heading "Shivashna Rooplall"*/
@@ -15,7 +14,7 @@ body {
 	text-align : center;
 	color : #59253A;
 	font-size : 68px;
-	/*font-family : "Lucida Bright";*/
+
 	
 }
 
@@ -24,7 +23,6 @@ h2 {
 	text-align : center;
 	color : #59253A;
 	font-size : 48px;
-	/*font-family : "Lucida Bright";*/
 }
 
 /* This affects the background picture of the cherry blossoms */
@@ -92,7 +90,7 @@ p {
 #SuperSkillsDiv {
 	position : relative;
 	top: 0;
-    left: 0;
+    	left: 0;
 }
 
 /* This is the picture that the about code will help to position correctly*/
@@ -136,7 +134,7 @@ button {
 	background : #DEF2F1;
 	border-radius: 4px;
 	cursor : pointer;
-	text-size : 20px;
+	font-size : 20px;
 	
 }
 
