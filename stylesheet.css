@@ -1,0 +1,148 @@
+/*Body Details - Changes made here will affect the entire body*/
+body {
+	width : 80%;
+	margin : auto;
+	background-color : #EDC7B7;
+	color : #59253A;
+	font-size : 18px;
+	/*font-family : "Calibri Light";*/
+}
+
+/*This is the main heading "Shivashna Rooplall"*/
+#ShivashnaRooplall {
+	grid-column : 1/13;
+	grid-row : 1/2;
+	text-align : center;
+	color : #59253A;
+	font-size : 68px;
+	/*font-family : "Lucida Bright";*/
+	
+}
+
+/* This affects the "Curriculum Vitae" heading */
+h2 {
+	text-align : center;
+	color : #59253A;
+	font-size : 48px;
+	/*font-family : "Lucida Bright";*/
+}
+
+/* This affects the background picture of the cherry blossoms */
+#background {
+	display : grid;
+	width : 80%;
+	margin : auto;
+	grid-column : 2/12;
+	grid-row : 3;
+	position : relative;
+	height : 400px;
+	width : 900px;
+	border : 2px inset #DEF2F1;
+	border-style : double;
+	top: 0;
+    left: 0;
+}
+
+/* This affects my personal picture of myself*/
+#personalPic {
+	grid-column : 6/8;
+	grid-row : 3;
+	position : absolute;
+	height : 410px;
+	width : 250px;
+	border : 2px inset #DEF2F1;
+	border-style : double;
+    top: -5px;
+    left: 410px;
+}
+
+/*This affects the welcome paragraph after the pictures at the very top of the webpage*/
+#welcomeParagraph {
+	color : #AC3B61;
+	text-align : center;
+	font-size : 20px;
+}
+
+/* This affects all the h3 headings*/
+h3 {
+	color : #59253A;
+	text-align : center;
+	font-size : 48px;
+	/*font-family : "Lucida Bright";*/
+}
+
+
+/* This affects all the paragraphs in the webpage*/
+p {
+	text-align : center;
+}
+
+/*This affects the 'about me' section of the webpage*/
+#aboutMeSection {
+	background-color : #D8C3A5;
+}
+
+/*This affects the 'how to contact me' section of the webpage*/
+#howToContactMeSection {
+	
+	background-color : #E3AFBC;
+}
+
+/* This refers to the 'supers skills paragraph and will help in positioning the picture correctly*/
+#SuperSkillsDiv {
+	position : relative;
+	top: 0;
+    left: 0;
+}
+
+/* This is the picture that the about code will help to position correctly*/
+#Skills {
+	position : absolute;
+	height : 290px;
+	width : 290px;
+	border : 2px inset #DEF2F1;
+    top: -5px;
+    left: 750px;
+}
+
+/*This affects the 'my super skills' section of the webpage*/
+#mySuperSkillsSection {
+	background-color : #D9B08C;
+}
+
+/*This affects the 'academic Qualifications' section of the webpage*/
+#academicQualificationsSection {
+	background-color : #D8C3A5;
+}
+
+/*This affects the 'work experience' section of the webpage*/
+#workExperienceSection {
+	background-color : #E3AFBC;
+}
+
+/*This affects the 'HyperionDev Projects' section of the webpage*/
+#HyperionDevProjectsSection {
+	background-color : #D9B08C; 
+}
+
+/* This affects all headings in h4*/
+h4 {
+	text-align : center;
+	font-size : 32px;
+	/*font-family : "Lucida Bright";*/
+}
+/*This code affects all the buttons */
+button {
+	background : #DEF2F1;
+	border-radius: 4px;
+	cursor : pointer;
+	
+}
+
+	
+
+
+
+	
+	
+
